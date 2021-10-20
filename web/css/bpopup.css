@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content_popup {
+	width:70% !important;
+	height:70% !important;
+	background-color:#FFF;
+	background-color:#fff;
+	border-radius:10px 10px 10px 10px;
+	box-shadow:0 0 25px 5px #999;
+	color:#111;
+	display:none;
+	padding:25px;
+}
+h2 {/*EN CONTACTO DE PAGO SE SOLAPA CON SWEET ALERT*/
+	color:#8989FE;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+	/*text-decoration:underline;*/
+}
+h1 {
+	color: #181C83;
+	text-align:center;
+}
+.poptitulo {
+	width:99% !important;
+	height:12% !important;
+}
+.popcentro{
+	width:99% !important;
+	height:75% !important;
+	overflow-y:auto;
+	color: #181C83;
+}
+.poppie{
+	margin-top:4%;
+	margin-left:45%;
+}
+.poppie2{
+	margin-left:45%;
+}
+.button{
+	background-color:#2b91af;
+	border-radius:10px;
+	box-shadow:0 2px 3px rgba(0,0,0,0.3);
+	color:#fff;
+	cursor:pointer;
+	display:inline-block;
+	padding:10px 20px;
+	text-align:center;
+	text-decoration:none;
+}
+.button:hover{
+	background-color:#1e1e1e;
+}
+.button>span{
+	font-size:84%;
+}
+.button.b-close,.button.bClose{
+	border-radius:7px 7px 7px 7px;
+	box-shadow:none;
+	font:bold 131% sans-serif;
+	padding:0 6px 2px;
+	/*position:absolute;*/
+	right:-7px;
+	top:-7px
+}
+.caja_texto {
+	width:40% !important;
+	height:30px !important;
+	margin-top:8px;
+	font-weight:bold;
+	color: #181C83;
+	text-align: right;
+	float:left;
+	/*border:1px black solid;*/
+}
+.caja_input {
+	width:30% !important;
+	height:30px !important;
+	margin-top:5px;
+	text-align: left;
+	float:left;
+	/*border:1px black solid;*/
+}
+.caja_input_area{
+	width:30% !important;
+	height:200px !important;
+	margin-top:5px;
+	text-align: left;
+	float:left;
+	/*border:1px black solid;*/
+}
+.caja_error {
+	width:25% !important;
+	height:30px !important;
+	margin-top:8px;
+	text-align: left;
+	color:#C00;
+	float:left;
+	/*border:1px black solid;*/
+}
+.env{
+	color:#FFF;
+	font-weight:bold;
+	text-decoration:none;
+}

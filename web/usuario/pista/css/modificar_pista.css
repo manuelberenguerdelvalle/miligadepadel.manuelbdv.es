@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+.cont_principal {
+	width:99% !important;
+	height:99% !important;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	float:left;
+	/*border:1px black solid;*/
+}
+.titulo {
+	font-size:90%;
+	color: #006;
+	margin-left:30%;
+}
+.caja {
+	width:40% !important;
+	height:40% !important;
+	background-color:#f3fcf5;
+	border-radius: 7px;
+	border:1px #C1C1C1 solid;
+	margin-left:4%;
+	margin-top:3%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.columna1{
+	width:35% !important;
+	height:55% !important;
+	margin-top:1%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.columna2{
+	width:55% !important;
+	height:55% !important;
+	margin-top:0.5%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.cuadroTexto{
+	width:99%;
+	height:30px !important;
+	font-size:80%;
+	text-align:right;
+	color:#003;
+	/*border:1px black solid;*/
+	float:right;
+}
+.cuadroInputs{
+	width:99%;
+	height:30px !important;
+	font-size:80%;
+	text-align:left;
+	/*border:1px black solid;*/
+	float:right;
+}
+.cuadroComentario{
+	width:99%;
+	height:30px !important;
+	font-size:80%;
+	color:#F00;
+	text-align:left;
+	/*border:1px black solid;*/
+	float:left;
+}
+.input_text_liga {
+	width:95%;
+	height:80% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+}
+.input_select_liga {
+	height:90% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-style:italic;
+	font-weight:bold;
+	border:1px #8989FE solid;
+}
+.horizontal {
+	width:99% !important;
+	height:30px !important;
+	/*border:1px #000 solid;*/
+	float:left;
+}
+/*.input_act {
+	margin-left:35%;
+	border-radius:5px;
+}
+.input_eli {
+	margin-left:20%;
+	border-radius:5px;
+}*/
+.error{
+	margin-left:10%;
+	font-size:80%;
+	color:#F00;
+}
+.boton {
+	margin-left:35%;
+	border-radius:5px;
+	background-color: #34495e;
+	border-radius:7px;
+	border:3px #34495e solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	color:#FFF;
+	font-weight:bold;
+	float:left;
+}
+.botonEli {
+	margin-left:20%;
+	border-radius:5px;
+	background-color: #900;
+	border-radius:7px;
+	border:3px #900 solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	color:#FFF;
+	font-weight:bold;
+	float:left;
+}
+#nombreCom,#direccionCom,#cpCom {
+	display:none;
+}
+
+
+

@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+#flotante{
+	position: absolute;
+	display:none;
+	font-family:Arial;
+	font-size:0.8em;
+	width:50%;
+	border:1px solid #34495e;
+	background-color:#c5fbc6;
+	padding:5px;
+	border-radius:10px;
+}
+

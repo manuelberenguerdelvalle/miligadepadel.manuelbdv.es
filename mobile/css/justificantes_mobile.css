@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+.contenedor_principal {
+	margin: 0 auto;
+	/*width: 1920px !important;*/
+	height: 1200px !important;
+	background-image:url(../../../images/diseno_justificante.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: contain;
+}
+.datos{
+	float:left;
+	width:375px;
+	height:225px;
+	margin-top:300px;
+	margin-left:75px;
+	/*border:1px solid red;*/
+	font-size:24px;
+	color:#003;
+}
+.cliente{
+	float:left;
+	width:375px;
+	height:225px;
+	margin-top:300px;
+	margin-left:60px;
+	/*border:1px solid red;*/
+	font-size:24px;
+	color:#003;
+}
+.num_factura{
+	float:left;
+	width:150px;
+	height:35px;
+	margin-top:110px;
+	margin-left:220px;
+	font-size:24px;
+	color:#003;
+}
+.fecha{
+	float:left;
+	width:150px;
+	height:35px;
+	margin-top:110px;
+	margin-left:112px;
+	font-size:24px;
+	color:#003;
+}
+.modo{
+	float:left;
+	width:150px;
+	height:35px;
+	margin-top:110px;
+	margin-left:150px;
+	font-size:24px;
+	color:#003;
+}
+.articulo{
+	float:left;
+	width:40px;
+	height:150px;
+	margin-top:200px;
+	margin-left:75px;
+	font-size:24px;
+	color:#003;
+}
+.descripcion{
+	float:left;
+	width:500px;
+	height:150px;
+	margin-top:200px;
+	margin-left:15px;
+	font-size:24px;
+	color:#003;
+}
+.cantidad{
+	float:left;
+	width:40px;
+	height:150px;
+	margin-top:200px;
+	margin-left:75px;
+	font-size:24px;
+	color:#003;
+}
+.precio_sin{
+	float:left;
+	width:120px;
+	height:150px;
+	margin-top:200px;
+	margin-left:40px;
+	font-size:24px;
+	color:#003;
+	text-align:center;
+}
+.iva{
+	float:left;
+	width:120px;
+	height:40px;
+	margin-top:65px;
+	margin-left:790px;
+	font-size:24px;
+	color:#003;
+	text-align:center;
+}
+.total{
+	float:left;
+	width:120px;
+	height:40px;
+	margin-top:20px;
+	margin-left:790px;
+	font-size:24px;
+	color:#003;
+	text-align:center;
+}

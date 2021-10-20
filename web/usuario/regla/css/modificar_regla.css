@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+.cont_principal {
+	width:99% !important;
+	height:99% !important;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	float:left;
+	/*border:1px black solid;*/
+}
+.titulo {
+	font-size:90%;
+	color: #006;
+	margin-left:30%;
+}
+.columna1{
+	width:15% !important;
+	height:70% !important;
+	margin-top:1%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.columna2{
+	width:84% !important;
+	height:70% !important;
+	margin-top:0.5%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.cuadroTexto{
+	font-size:80%;
+	text-align:right;
+	color:#003;
+	/*border:1px black solid;*/
+	float:right;
+}
+.cuadroInputs{
+	font-size:80%;
+	text-align:left;
+	/*border:1px black solid;*/
+	float:left;
+}
+.input_text_area {
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+	border:1px #8989FE solid;
+}
+.horizontal {
+	width:99% !important;
+	height:30px !important;
+	/*border:1px #000 solid;*/
+	float:left;
+}
+.error{
+	margin-left:10%;
+	font-size:80%;
+	color:#F00;
+}
+.boton {
+	background-color: #34495e;
+	border-radius:7px;
+	border:3px #34495e solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	color:#FFF;
+	font-weight:bold;
+	margin-left:35%;
+	float:left;
+}
+
+
+

@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+.caja_pago {
+	width:70% !important;
+	height:70% !important;
+	background-color:#c5fbc6;
+	border-radius: 7px;
+	margin-left:15%;
+	border:1px #C1C1C1 solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.caja_pago img {
+	margin-top:0.5%;
+	margin-left:1%;
+	height:10%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.caja_pago label {
+	width:90% !important;
+	text-align:left;
+	font-size:95%;
+	margin-top:0.5%;
+	margin-left:2%;
+	color:#006;
+	/*border:1px black solid;*/
+	float:left;
+}
+.cuadroResultado{
+	width:88% !important;
+	height:50% !important;
+	margin-top:0.5%;
+	margin-left:8%;
+	overflow-y: auto;
+	/*border:1px black solid;*/
+	float:left;
+}
+.linea {
+	width:99%;
+	height:30px;
+	font-size:95%;
+	color:#006;
+	/*border:1px black solid;*/
+	float:left;
+}
+.input_precio {
+	width:8%;
+	height:80% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	text-align:center;
+	border:1px #8989FE solid;
+}
+.boton {
+	background-color: #34495e;
+	border-radius:7px;
+	border:3px #34495e solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	color:#FFF;
+	font-weight:bold;
+	margin-left:35%;
+	float:left;
+}
+.horizontal {
+	width:99%;
+	font-size:95%;
+	color:#006;
+	text-align:left;
+	margin-left:30%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.cargando {
+	width:4%;
+	margin-top:1%;
+	margin-left:11%;
+}

@@ -1,0 +1,1075 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+ALINEAR IMAGEN AL CENTRO
+display:block;
+margin:0 auto 0 auto;
+*/
+html,body {
+	margin: 0px;
+	padding: 0px;
+	overflow:hidden;
+}
+.principal {
+	margin: 0 auto;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: 'Cabin', Arial, sans-serif;
+	/*font-family:'Alegreya';*/
+	/*font-family:'Montserrat';*/
+	/*font-family:Verdana, Geneva, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-family:   Arial, Helvetica, sans-serif;*/
+}
+
+/*----------PANEL IZQUIERDO Y DERECHO--------------*/
+.izquierdo {
+	width:8.5% !important;
+	height:92% !important;
+	background-color:#e9eaed;
+	border-bottom:1px #b6b7b9 solid;
+	behavior: url(/PIE.htc);
+	float:left;
+}
+.derecho {
+	width:8.5% !important;
+	height:92% !important;
+	background-color:#e9eaed;
+	border-bottom:1px #b6b7b9 solid;
+	behavior: url(/PIE.htc);
+	float:left;
+}
+.fondo_publi {
+	width:99.9% !important;
+	height:20% !important;
+	/*background-image:url(../../../images/pelota.png);*/
+	background-image:url(../../images/pelota.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: contain;
+}
+.fondo_publi_vacio {
+	width:99.9% !important;
+	height:20% !important;
+	/*border:1px #000 solid;*/
+}
+.imagen_redondeada {
+	width: 80% !important;
+	height:80% !important;
+	margin-top: 10.5%;
+	margin-left: 10%;
+    border-radius: 50%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+}
+.imagenPubliVacia {
+	width:99% !important;
+}
+/*----------CENTRAL---------------*/
+.central {
+	width:80% !important;
+	height:92% !important;
+	border-bottom:1px #b6b7b9 solid;
+	background-color:#e9eaed;
+	float:left;
+}
+/*----------CABECERA---------------*/
+.cabecera {
+	behavior: url(PIE/PIE.htc);
+	width:98% !important;
+	border:1px #e9eaed solid;
+	background-color:#ced5ea;
+	-webkit-box-shadow: 0px 0px 5px 3px rgba(92,98,147, 0.35);
+	-moz-box-shadow:    0px 0px 5px 3px rgba(92,98,147, 0.35);
+	box-shadow:         0px 0px 5px 3px rgba(92,98,147, 0.35);
+	float:left;
+}
+.logo {
+	width:20% !important;
+	height:99.9% !important;
+	/*border: 1px #000000 solid;*/
+	float:left;
+}
+.logo img{
+	border:1px #e9eaed solid;
+	border-radius:5px;
+	margin-left:15%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	height:95%;
+}
+.superior {
+	width:79% !important;
+	height:36%;
+	float:left;
+}
+.nombre {
+	width:60% !important;
+	color: rgb(79,83,118);
+	margin-top:1%;
+	font-size:110%;
+	text-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.nombre div{
+	float:left;
+}
+.nombre select{
+	/*color: #181C83;*/
+	color: rgb(79,83,118);
+	background-color:rgb(158,169,251);
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:none;
+	font-size:90%;
+}
+.inicio {
+	width:16% !important;
+	color: rgb(79,83,118);
+	margin-top:1%;
+	text-align:center;
+	float:left;
+}
+.inicio:hover{
+	box-shadow:2px 2px 3px #5c6293;
+	background-color:#FFF;
+	border-radius: 5px;
+}
+.idioma {
+	width:15% !important;
+	height:99% !important;
+	color: rgb(79,83,118);
+	margin-top:1%;
+	/*border: 1px #000000 solid;*/
+	float:left;
+}
+.menu {
+	width:79% !important;
+	height:60%;
+	float:left;
+}
+
+/*------------------CSS DEL MENU------------------------*/
+/* basic menu styles */
+.block-menu {
+	display: block;
+}
+
+.block-menu li {
+	display: inline-block;
+}
+
+.block-menu li a {
+	color: #F00;
+	display: block;
+	text-decoration: none;
+	font-family: 'Passion One', Arial, sans-serif;
+	font-smoothing: antialiased;
+	text-transform: uppercase;
+	overflow: visible;
+	line-height: 20px;
+	font-size: 110%;
+	padding: 15px 10px;
+}
+
+/* animation domination */
+.three-d {
+	perspective: 200px;
+	transition: all .07s linear;
+	position: relative;
+	cursor: pointer;
+}
+	/* complete the animation! */
+	.three-d:hover .three-d-box, 
+	.three-d:focus .three-d-box {
+		transform: translateZ(-25px) rotateX(90deg);
+	}
+
+.three-d-box {
+	transition: all .3s ease-out;
+	transform: translatez(-25px);
+	transform-style: preserve-3d;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+/* 
+	put the "front" and "back" elements into place with CSS transforms, 
+	specifically translation and translatez
+*/
+.front {
+	transform: rotatex(0deg) translatez(25px);
+}
+
+.back {
+	transform: rotatex(-90deg) translatez(25px);
+	color: #ffe7c4;
+	/*color: #0F0;*/
+}
+
+.back {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*background: #5c6293;*/
+	background: #FFF;
+	text-shadow:1px 1px 2px #5c6293;
+	/*box-shadow:2px 2px 3px rgba(0,0,0,0.3);*/
+	box-shadow:2px 2px 3px #5c6293;
+	padding: 15px 10px;
+	/*color: #9ea9fb;*/
+	color: #5c6293;
+	pointer-events: none;
+	box-sizing: border-box;
+}
+.front{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #626dc6;
+	text-shadow:2px 2px 4px #000033;
+	box-shadow:2px 2px 3px rgba(92,98,147,0.5);
+	padding: 15px 10px;
+	color: #fff;
+	pointer-events: none;
+	box-sizing: border-box;
+}
+/*---------------------FIN DEL MENU-----------------------*/
+.contenido {
+	height:75.9% !important;
+	margin-top:1%;
+	float:left;
+	background-color:#e9eaed;
+	border-bottom:1px #b6b7b9 solid;
+	behavior: url(/PIE.htc);
+}
+.texto_titulo {
+	width:25% !important;
+	height:8% !important;
+	margin-top:1%;
+	font-size:120%;
+	color: #181C83;
+	text-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	text-align:center;
+	float:left;
+}
+.publi_google {
+	/*border:1px black solid;*/
+	width:73% !important;
+	height:8% !important;
+	margin-top:1%;
+	text-align:center;
+	float:left;
+}
+.red_social {
+	width:15% !important;
+	/*border:1px black solid;*/
+	float:left;
+}
+/*EL CSS DEL POPUP SE HA PASADO AL GENERAL DE BPOPUP.CSS*/
+.input_text_liga {
+	width:95%;
+	height:95% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+}
+.input_text_area{
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+}
+.env{
+	color:#FFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+.contenedor_datos{
+	width:95% !important;
+	height:85% !important;
+	overflow:auto;
+	margin-left:2.5%;
+	/*border:1px black solid;*/
+	float:left;
+}
+
+/*-----------------VISOR DE IMAGENES---------------*/
+.lb-overlay{
+	width: 0px;
+	height: 0px;
+	position: fixed;
+	overflow: hidden;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	z-index: 99;
+	text-align: center;
+	background: #e9eaed;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, rgba(213,215,249,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,rgba(213,215,249,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(213,215,249,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(213,215,249,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(213,215,249,1) 100%);
+	background: radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(213,215,249,1) 100%);
+}
+.lb-overlay > div{
+	position: relative;
+	color: rgba(27,54,81,0.8);
+	width: 57%;
+	height: 16%;
+	margin: 40px auto 0px auto;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
+}
+
+.lb-overlay a.lb-close{
+	background: rgba(98,109,198,0.8);
+	z-index: 1001;
+	color: #fff;
+	position: absolute;
+	/*top: 43px;*/
+	top:4%;
+	left: 50%;
+	font-size: 100%;
+	line-height: 26px;
+	text-align: center;
+	width: 5.2%;
+	height: 3.5%;
+	overflow: hidden;
+	margin-left: -2.6%;
+	opacity: 0;
+	filter: alpha(opacity=0); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	-webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+}
+.lb-overlay img{
+	/* height: 100%; For Opera max-height does not seem to work */
+	max-width:100%;
+	max-height: 100%;
+	position: relative;
+	opacity: 0;
+	filter: alpha(opacity=0); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	-ms-transition: opacity 0.5s linear;
+	transition: opacity 0.5s linear;
+}
+.lb-prev, .lb-next{
+	text-indent: -100%;
+	position: absolute;
+	top: -4%;
+	width: 3.7%;
+	height: 30%;
+	left: 50%;
+	opacity: 0.8;
+	filter: alpha(opacity=80); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=80)"; /*IE8*/
+}
+.lb-prev:hover, .lb-next:hover{
+	opacity: 1;
+	filter: alpha(opacity=99); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+}
+.lb-prev{
+	margin-left: -30px;
+	background: transparent url(../images/arrows.png) no-repeat top left;
+}
+.lb-next{
+	margin-left: 6px;
+	background: transparent url(../../images/arrows.png) no-repeat top right;
+}
+.lb-overlay:target {
+	width: auto;
+	height: auto;
+	bottom: 0px;
+	right: 0px;
+	/*padding: 80px 100px 120px 100px;*/
+	padding: 4% 6% 8% 6%;
+	/*border:1px red solid;*/
+}
+.lb-overlay:target img,
+.lb-overlay:target a.lb-close{
+	opacity: 1;
+	filter: alpha(opacity=99); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+}
+
+x:-o-prefocus, .lb-overlay img {
+    height: 100%;
+	max-height: 100%;
+}
+/*---------------FIN VISOR DE IMAGENES--------------------*/
+
+/*-------------------NOTICIA--------------------*/
+.cab_noticia {
+	width:95% !important;
+	background-color:#FFF;
+	text-align:left;
+	color:#333;
+	padding-left:1%;
+	margin-top:1.5%;
+	border-top:1px #AAA solid;
+	border-left:1px #AAA solid;
+	border-right:1px #AAA solid;
+	box-shadow:2px 2px 3px #AAA;
+	float:left;
+}
+.en_blanco {
+	color:#FFF;
+	font-size:50%;
+}
+.body_noticia {
+	width:95% !important;
+	background-color:#FFF;
+	/*border-top:1px #AAA solid;*/
+	border-left:1px #AAA solid;
+	border-right:1px #AAA solid;
+	padding-left:1%;
+	color:#555;
+	box-shadow:2px 2px 3px #AAA;
+	float:left;
+}
+.body_noticia_fin {
+	width:95% !important;
+	background-color:#FFF;
+	/*border-top:1px #AAA solid;*/
+	border-left:1px #AAA solid;
+	border-right:1px #AAA solid;
+	border-bottom:1px #AAA solid;
+	padding-left:1%;
+	color:#555;
+	box-shadow:2px 2px 3px #AAA;
+	float:left;
+}
+.pie_noticia {
+	width:95% !important;
+	background-color:#FFF;
+	padding-left:1%;
+	border-left:1px #AAA solid;
+	border-right:1px #AAA solid;
+	border-bottom:1px #AAA solid;
+	box-shadow:2px 2px 3px #AAA;
+	float:left;
+}
+.imagen_mini {
+	width:20% !important;
+	height:20% !important;
+	margin-left:1%;
+	border:8px #e9eaed solid;
+	border-radius:7px;
+	float:left
+}
+.imagen_mini:hover {
+	border:8px #9ea9fb solid;
+
+}
+a {
+	text-decoration:none;
+}
+.horizontal {
+	width:99% !important;
+	/*border:1px #000 solid;*/
+	color: #181C83;
+	float:left;
+}
+.boton_noticias {
+	border:hidden;
+	background-color:inherit;
+}
+
+/*-----------FIN NOTICIA--------------------------*/
+/*-----------CLASIFICACION---------------------*/
+.linea_datos {
+	width:99% !important;
+	height:8% !important;
+	border:1px #C1C1C1 solid;
+	border-top-left-radius:7px;
+	border-top-right-radius:7px;
+	color:#333;
+	background-color:rgb(158,169,251);
+	text-align:center;
+	float:left;
+}
+.posicion_datos {
+	width:5% !important;
+	margin-top:1%;
+	color:#333;
+	/*border:1px black solid;*/
+	text-align:center;
+	float:left;
+}
+.equipo_datos {
+	width:45% !important;
+	margin-top:1%;
+	/*border:1px black solid;*/
+	text-align:center;
+	float:left;
+}
+.linea_clasificacion {
+	width:99% !important;
+	height:12% !important;
+	/*border:1px black solid;*/
+	border-left:1px #C1C1C1 solid;
+	border-right:1px #C1C1C1 solid;
+	border-bottom:1px #C1C1C1 solid;
+	text-align:center;
+	background-color:#FFF;
+	float:left;
+}
+.linea_clasificacion:hover {
+	font-weight:bold;
+	box-shadow:2px 2px 3px #5c6293;
+}
+.linea_clasificacion_asc {
+	width:99% !important;
+	height:12% !important;
+	/*border:1px black solid;*/
+	border-left:1px #C1C1C1 solid;
+	border-right:1px #C1C1C1 solid;
+	border-bottom:1px #C1C1C1 solid;
+	text-align:center;
+	background-color:#e0fcd2;
+	float:left;
+}
+.linea_clasificacion_asc:hover {
+	font-weight:bold;
+	box-shadow:2px 2px 3px #5f935c;
+}
+.linea_clasificacion_desc {
+	width:99% !important;
+	height:12% !important;
+	/*border:1px black solid;*/
+	border-left:1px #C1C1C1 solid;
+	border-right:1px #C1C1C1 solid;
+	border-bottom:1px #C1C1C1 solid;
+	text-align:center;
+	background-color:#fcdbd2;
+	float:left;
+}
+.linea_clasificacion_desc:hover {
+	font-weight:bold;
+	box-shadow:2px 2px 3px #5f935c;
+}
+.foto_movi {
+	width:60%;
+	text-align: center;
+	margin-top:13%;
+}
+.posicion {
+	width:5% !important;
+	height:99% !important;
+	/*border:1px black solid;*/
+	/*border-right:1px #333 solid;*/
+	text-align:center;
+	float:left;
+}
+.movimiento {
+	width:5% !important;
+	height:99% !important;
+	/*border:1px black solid;*/
+	text-align:center;
+	float:left;
+}
+.foto {
+	width:5% !important;
+	height:99% !important;
+	/*border:1px black solid;*/
+	text-align:center;
+	float:left;
+}
+.equipo {
+	width:20% !important;
+	margin-top:1%;
+	/*border:1px black solid;*/
+	text-align:left;
+	float:left;
+}
+.p_jugados {
+	width:5% !important;
+	margin-top:1%;
+	/*border:1px black solid;*/
+	text-align:center;
+	float:left;
+}
+.p_ganados {
+	width:5% !important;
+	margin-top:1%;
+	/*border:1px black solid;*/
+	text-align:center;
+	float:left;
+}
+.p_perdidos {
+	width:5% !important;
+	margin-top:1%;
+	/*border:1px black solid;*/
+	text-align:center;
+	float:left;
+}
+.sets_favor {
+	width:5% !important;
+	margin-top:1%;
+	/*border:1px black solid;*/
+	text-align:center;
+	float:left;
+}
+.sets_contra {
+	width:5% !important;
+	margin-top:1%;
+	/*border:1px black solid;*/
+	text-align:center;
+	float:left;
+}
+.sets_diferencia {
+	width:5% !important;
+	margin-top:1%;
+	/*border:1px black solid;*/
+	text-align:center;
+	float:left;
+}
+.puntos {
+	width:5% !important;
+	margin-top:1%;
+	/*border:1px black solid;*/
+	text-align:center;
+	float:left;
+}
+.imagen_pos{
+	height:99% !important;
+}
+.numero_pos{
+	margin-top:15%;
+	font-size:120%;
+	text-shadow:1px 1px 2px #5c6293;
+}
+.imagen_foto{
+	width:99% !important;
+	border-radius: 5px;
+	max-width:99% !important;
+	max-height:99% !important;
+}
+/*--------------FIN CLASIFICACION-----------*/
+
+/*------------INFO----------------------*/
+.medio_contenedor {
+	width:48% !important;
+	background-color:#FFF;
+	margin-left:1%;
+	margin-top:1.5%;
+	border:1px #AAA solid;
+	box-shadow:2px 2px 3px #AAA;
+	float:left;
+}
+.titulo_info {
+	width:60% !important;
+	margin-top:1%;
+	margin-left:35%;
+	color:#333;
+	float:left;
+}
+.color1 {
+	width:10% !important;
+	margin-top:1.5%;
+	margin-left:1%;
+	bor
+	color:#333;
+	text-align:center;
+	box-shadow:2px 2px 3px #AAA;
+	background-color:rgb(227,194,61);
+	float:left;
+}
+.color2 {
+	width:10% !important;
+	margin-top:1.5%;
+	margin-left:1%;
+	color:#333;
+	text-align:center;
+	box-shadow:2px 2px 3px #AAA;
+	background-color:rgb(204,204,203);
+	float:left;
+}
+.color3 {
+	width:10% !important;
+	margin-top:1.5%;
+	margin-left:1%;
+	color:#333;
+	text-align:center;
+	box-shadow:2px 2px 3px #AAA;
+	background-color:rgb(205,116,76);
+	float:left;
+}
+.color4 {
+	width:10% !important;
+	margin-top:1.5%;
+	margin-left:1%;
+	color:#333;
+	text-align:center;
+	box-shadow:2px 2px 3px #AAA;
+	background-color:rgb(213,251,231);
+	float:left;
+}
+.color5 {
+	width:10% !important;
+	margin-top:1.5%;
+	margin-left:1%;
+	color:#333;
+	text-align:center;
+	box-shadow:2px 2px 3px #AAA;
+	background-color:rgb(218,218,249);
+	float:left;
+}
+.todos{
+	width:10% !important;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:1.5%;
+	margin-left:1%;
+	color:#333;
+	text-align: center;
+	box-shadow:2px 2px 3px #AAA;
+	background-color:rgb(202,119,249);
+	font-size:60%;
+	float:left;
+}
+.texto_info {
+	width:87% !important;
+	margin-top:1.5%;
+	margin-left:1%;
+	color:#333;
+	float:left;
+}
+.texto_regla {
+	width:97% !important;
+	margin-left:1%;
+	color:#333;
+	font-size:90%;
+	float:left;
+}
+/*---------------FIN INFO-----------------*/
+/*---------------CALENDARIO----------*/
+.contenedor_jornadas {
+	width:90% !important;
+	margin-left:5%;
+	/*border:1px #000 solid;*/
+	float:left;
+}
+.jornada {
+	margin-left:0.5%;
+	margin-bottom:0.5%;
+	width: 3%;
+	background-color: #EDEDFC;
+	text-align:center;
+	border-radius:5px;
+	border:1px #b6b7b9 solid;
+	padding-bottom:0.6%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.jornada_disputandose {
+	margin-left:0.5%;
+	margin-bottom:0.5%;
+	width: 3%;
+	/*AABBCC*/
+	background-color: #ecc8fa;
+	text-align:center;
+	border-radius:5px;
+	border:1px #b6b7b9 solid;
+	padding-bottom:0.6%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.jornada_completa {
+	margin-left:0.5%;
+	margin-bottom:0.5%;
+	width: 3%;
+	background-color: #c5fbc6;
+	text-align:center;
+	border-radius:5px;
+	border:1px #b6b7b9 solid;
+	padding-bottom:0.6%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.normal {
+	color: #181C83;
+	font-style:italic;
+	font-size:80%;
+}
+.seleccionado{
+	color: #181C83;
+	font-style:italic;
+	font-weight:bolder;
+	font-size:100%;
+}
+.caja {
+	width:99% !important;
+	height:30% !important;
+	background-color:#f3fcf5;
+	border-radius: 7px;
+	border:1px #C1C1C1 solid;
+	margin-top:3%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.caja:hover {
+	background-color:#dbe4dd;
+}
+.boton {
+	width:3% !important;
+	height:95% !important;
+	background-color: #AABBCC;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	margin-top:0.2%;
+	margin-left:0.5%;
+	margin-right:0.5%;
+	border-radius:7px;
+	border:1px #34495e solid;
+	float:left;
+}
+.letra {
+	color:#34495e;
+	font-size:55%;
+	text-align: center;
+	width:99% !important;
+	float:left;
+	font-weight: bolder;
+}
+.mostrar_equipo {
+	width:22% !important;
+	height:99.9% !important;
+	float:left;
+}
+.jugador1 {
+	width:99.9% !important;
+	height:49% !important;
+	text-align:center;
+	color:#003;
+	border-right:1px #C1C1C1 solid;
+	border-bottom:1px #C1C1C1 solid;
+	border-left:1px #C1C1C1 solid;
+	float:left;
+}
+.jugador2 {
+	width:99.9% !important;
+	height:50% !important;
+	text-align:center;
+	color:#003;
+	border-right:1px #C1C1C1 solid;
+	border-left:1px #C1C1C1 solid;
+	float:left;
+}
+.alinear_texto{
+	margin-top:6%;
+}
+.resultados {
+	width:4% !important;
+	height:99% !important;
+	padding-left:0.5%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.resultados select {
+	float:left;
+}
+.datos_planos {
+	width:70% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	text-align:center;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	border:1px #8989FE solid;
+}
+.datos {
+	width:22% !important;
+	height:99% !important;
+	padding-left:0.5%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.datos select {
+	margin-top:3% !important;
+	margin-left:1%;
+	float:left;
+}
+.datos input {
+	margin-top:3% !important;
+	float:left;
+}
+.datos_planos2 {
+	width:49% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	text-align:center;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	border:1px #8989FE solid;
+	float:left;
+}
+.datos2 {
+	width:19% !important;
+	height:99% !important;
+	padding-left:0.5%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.titulo {
+	width:99.9% !important;
+	margin-top:5%;
+	text-align:center;
+	color:#003;
+	float:left;
+}
+.nom_campo {
+	width:23% !important;
+	/*border:1px black solid;*/
+	margin-top:3%;
+	color:#003;
+	font-size:80%;
+	text-align:right;
+	float:left;
+}
+.input_campo {
+	width:74% !important;
+	margin-top:1%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.input_text {
+	width:95%;
+	/*height:80% !important;*/
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	border:1px #8989FE solid;
+}
+.input_select_liga {
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-style:italic;
+	font-weight:bold;
+	border:1px #8989FE solid;
+}
+.input_select_liga2 {
+	width:49% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-style:italic;
+	font-weight:bold;
+	border:1px #8989FE solid;
+}
+.boton_ticket{
+	margin-top:3%;
+	margin-left:30%;
+	color:#003;
+	background-color:  #9df7b8;
+	border-radius:7px;
+	border:3px #9df7b8 solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	/*color:#FFF;*/
+	color:#34495e;
+	font-weight:bold;
+}
+/*------------FIN CALENDARIO--------*/
+/*------------CONTACTO--------*/
+.caja_texto2 {
+	width:20% !important;
+	height:30px !important;
+	margin-top:8px;
+	font-weight:bold;
+	color: #181C83;
+	text-align: right;
+	float:left;
+	/*border:1px black solid;*/
+}
+.caja_input2 {
+	width:40% !important;
+	height:30px !important;
+	margin-top:5px;
+	text-align: left;
+	float:left;
+	/*border:1px black solid;*/
+}
+.caja_input_area2 {
+	width:40% !important;
+	height:200px !important;
+	margin-top:5px;
+	text-align: left;
+	float:left;
+}
+.caja_error2 {
+	width:35% !important;
+	height:30px !important;
+	margin-top:8px;
+	text-align: left;
+	color:#C00;
+	float:left;
+	/*border:1px black solid;*/
+}
+.input_text_liga2 {
+	width:95%;
+	height:95% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	box-shadow:1px 1px 2px rgba(0,0,0,0.3);
+	border:1px #8989FE solid;
+}
+.input_text_area2 {
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	box-shadow:1px 1px 2px rgba(0,0,0,0.3);
+	border:1px #8989FE solid;
+}
+.botonAtras2 {
+	background-color:#2b91af;
+	border-radius:10px;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	color:#fff;
+	cursor:pointer;
+	display:inline-block;
+	padding:5px 10px;
+	margin-left:30%;
+	text-decoration:none;
+}
+.botonAtras2:hover {
+	background-color:#3dd0fb;
+	color:#195567;
+}
+#contactoCom,#asuntoCom,#mensajeCom{
+	display:none;
+}
+/*------------FIN CONTACTO--------*/

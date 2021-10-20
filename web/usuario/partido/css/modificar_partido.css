@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+.cont_principal {
+	width:99% !important;
+	height:99% !important;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	float:left;
+	/*border:1px black solid;*/
+}
+.titulo {
+	font-size:90%;
+	color: #006;
+	margin-left:15%;
+}
+.contenedor_jornadas {
+	width:90% !important;
+	margin-left:5%;
+	/*border:1px #000 solid;*/
+	float:left;
+}
+.jornada {
+	margin-left:0.5%;
+	margin-bottom:0.5%;
+	width: 3%;
+	background-color: #EDEDFC;
+	text-align:center;
+	border-radius:5px;
+	border:1px #181C83 solid;
+	padding-bottom:0.6%;
+	float:left;
+}
+.jornada_disputandose {
+	margin-left:0.5%;
+	margin-bottom:0.5%;
+	width: 3%;
+	/*AABBCC*/
+	background-color: #ecc8fa;
+	text-align:center;
+	border-radius:5px;
+	border:1px #181C83 solid;
+	padding-bottom:0.6%;
+	float:left;
+}
+.jornada_completa {
+	margin-left:0.5%;
+	margin-bottom:0.5%;
+	width: 3%;
+	background-color: #c5fbc6;
+	text-align:center;
+	border-radius:5px;
+	border:1px #181C83 solid;
+	padding-bottom:0.6%;
+	float:left;
+}
+.normal {
+	color: #181C83;
+	font-style:italic;
+	font-size:80%;
+}
+.seleccionado{
+	color: #181C83;
+	font-style:italic;
+	font-weight:bolder;
+	font-size:100%;
+}
+.caja {
+	width:99% !important;
+	height:21% !important;
+	background-color:#f3fcf5;
+	border-radius: 7px;
+	border:1px #C1C1C1 solid;
+	margin-top:3%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.caja:hover {
+	width:99% !important;
+	height:21% !important;
+	background-color:#dbe4dd;
+	border-radius: 7px;
+	border:1px #C1C1C1 solid;
+	margin-top:3%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.boton {
+	width:3% !important;
+	height:95% !important;
+	background-color: #AABBCC;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	margin-top:0.2%;
+	margin-left:0.5%;
+	margin-right:0.5%;
+	border-radius:7px;
+	border:1px #34495e solid;
+	float:left;
+}
+.boton_sus {
+	width:3% !important;
+	height:95% !important;
+	background-color: #FF9;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	margin-top:0.2%;
+	margin-left:0.5%;
+	margin-right:0.5%;
+	border-radius:7px;
+	border:1px #34495e solid;
+	float:left;
+}
+.boton_exp {
+	width:3% !important;
+	height:95% !important;
+	background-color: #FFC1CC;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	margin-top:0.2%;
+	margin-left:0.5%;
+	margin-right:0.5%;
+	border-radius:7px;
+	border:1px #34495e solid;
+	float:left;
+}
+.letra {
+	color:#34495e;
+	font-size:45%;
+	text-align: center;
+	width:99% !important;
+	float:left;
+	font-weight: bolder;
+}
+.equipo {
+	width:23% !important;
+	height:99.9% !important;
+	float:left;
+}
+.jugador1 {
+	width:99.9% !important;
+	height:49% !important;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	border-right:1px #C1C1C1 solid;
+	border-bottom:1px #C1C1C1 solid;
+	border-left:1px #C1C1C1 solid;
+	float:left;
+}
+.jugador2 {
+	width:99.9% !important;
+	height:50% !important;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	border-right:1px #C1C1C1 solid;
+	border-left:1px #C1C1C1 solid;
+	float:left;
+}
+.alinear_texto{
+	margin-top:6%;
+}
+
+.resultados {
+	width:4% !important;
+	height:99% !important;
+	padding-left:0.5%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.resultados select {
+	float:left;
+}
+.datos {
+	width:40% !important;
+	height:49% !important;
+	padding-left:0.5%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.datos select {
+	margin-top:3% !important;
+	margin-left:1%;
+	float:left;
+}
+.datos input {
+	margin-top:3% !important;
+	float:left;
+}
+.datos2 {
+	width:40% !important;
+	height:49% !important;
+	padding-left:0.5%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.input_text_liga {
+	width:95%;
+	height:80% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+}
+.input_select_liga {
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-style:italic;
+	font-weight:bold;
+	border:1px #8989FE solid;
+}
+.dateTxt {
+	width:25% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-style:italic;
+	font-weight:bold;
+	border:1px #8989FE solid;
+}
+.horizontal {
+	width:99% !important;
+	/*border:1px #000 solid;*/
+	float:left;
+}
+.input_act {
+	margin-left:35%;
+	border-radius:5px;
+}
+.input_eli {
+	margin-left:20%;
+	border-radius:5px;
+}
+
+
+

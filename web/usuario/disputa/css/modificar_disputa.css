@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+.cont_principal {
+	width:99% !important;
+	height:99% !important;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	float:left;
+	/*border:1px black solid;*/
+}
+/*.titulo {
+	font-size:90%;
+	color: #006;
+	margin-left:15%;
+}*/
+
+.caja {
+	width:99% !important;
+	height:28% !important;
+	background-color:#f3fcf5;
+	border-radius: 7px;
+	border:1px #C1C1C1 solid;
+	margin-top:3%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.caja:hover {
+	background-color:#dbe4dd;
+
+}
+.equipo {
+	width:23% !important;
+	height:99.9% !important;
+	float:left;
+}
+.jugador1 {
+	width:99.9% !important;
+	height:49% !important;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	border-right:1px #C1C1C1 solid;
+	border-bottom:1px #C1C1C1 solid;
+	border-left:1px #C1C1C1 solid;
+	float:left;
+}
+.jugador2 {
+	width:99.9% !important;
+	height:50% !important;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	border-right:1px #C1C1C1 solid;
+	border-left:1px #C1C1C1 solid;
+	float:left;
+}
+.jugador_emisor {
+	width:99.9% !important;
+	height:50% !important;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	background-color:#BFB ;
+	border-right:1px #C1C1C1 solid;
+	border-left:1px #C1C1C1 solid;
+	float:left;
+}
+.alinear_texto{
+	margin-top:9%;
+}
+
+.resultados {
+	width:4% !important;
+	height:99% !important;
+	padding-left:0.5%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.datos {
+	width:21% !important;
+	height:99% !important;
+	padding-left:0.5%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.datos_jornada {
+	width:38% !important;
+	height:25% !important;
+	margin-top:5%;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	float:left;
+	/*border:1px black solid;*/
+}
+.datos_estado {
+	width:61% !important;
+	height:25% !important;
+	margin-top:5%;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	float:left;
+	/*border:1px black solid;*/
+}
+.datos textarea {
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+	float:left;
+}
+.respuesta {
+	width:21% !important;
+	height:99% !important;
+	padding-left:0.5%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.contestacion {
+	width:99% !important;
+	height:18% !important;
+	/*border:1px black solid;*/
+	float:left;
+}
+.contestacion img {
+	height:99% !important;
+	float:left;
+}
+.contestacion label {
+	font-size:80%;
+	margin-left:5%;
+	color:#003;
+	float:left;
+}
+.destinatarios {
+	width:99% !important;
+	height:70% !important;
+	/*border:1px black solid;*/
+	float:left;
+}
+.destinatarios label {
+	width:99% !important;
+	font-size:80%;
+	text-align:left;
+	color:#003;
+	float:left;
+}
+.boton {
+	width:auto;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	color: #181C83;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+}
+
+.input_resultado {
+	width:50% !important;
+	display: table-row-group !important;
+	color: #181C83;
+	margin-left:15%;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-style:italic;
+	font-weight:bold;
+	border:1px #8989FE solid;
+}
+.horizontal {
+	width:99% !important;
+	/*border:1px #000 solid;*/
+	float:left;
+}
+.boton2 {
+	background-color: #34495e;
+	border-radius:7px;
+	border:3px #34495e solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	color:#FFF;
+	font-weight:bold;
+	float:left;
+}
+.input_act {
+	margin-left:35%;
+	border-radius:5px;
+}
+.input_eli {
+	margin-left:20%;
+	border-radius:5px;
+}
+.error{
+	margin-left:10%;
+	font-size:80%;
+	color:#F00;
+}
+#nombreCom,#apellidosCom,#dniCom,#telefonoCom,#direccionCom,#cpCom,#tipoCom {
+	display:none;
+}
+
+

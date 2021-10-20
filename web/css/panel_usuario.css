@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+html,body {
+	margin: 0px;
+	padding: 0px;
+	overflow:hidden;
+	background-color: #fff;
+}
+.principal {
+	margin: 0 auto;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	/*border:1px black solid;*/
+}
+/*-------------MENU SUPERIOR-----------------------*/
+.superior {
+	width:99.9% !important;
+	height:10% !important;
+	background-color: #34495e;
+	float:left;
+	/*border:1px white solid;*/
+}
+.nombre_usuario {
+	width:32% !important;
+	height:50% !important;
+	/*border:1px white solid;*/
+	margin-top:1%;
+	margin-left:1%;
+	font-size:75%;
+	font-weight:bold;
+	text-shadow: 0px 2px 3px #555;
+	color:#FFF;
+	float:left;
+}
+.nombre_usuario a {
+	font-size:90%;
+	font-weight:bold;
+	text-shadow: 0px 2px 3px #555;
+	color:#AABBCC;
+}
+.desplegable_liga {
+	width:24% !important;
+	height:50% !important;
+	text-align:right;
+	/*border:1px white solid;*/
+	margin-top:1%;
+	font-size:75%;
+	float:left;
+}
+.desplegable_division {
+	width:5% !important;
+	height:50% !important;
+	/*border:1px white solid;*/
+	margin-top:1%;
+	margin-left:1%;
+	font-size:75%;
+	float:left;
+}
+.cuenta {
+	width:10% !important;
+	height:50% !important;
+	/*border:1px white solid;*/
+	margin-top:1%;
+	float:left;
+}
+.cuenta a {
+	font-size:75%;
+	font-weight:bold;
+	text-shadow: 0px 2px 3px #555;
+	color:#FFF;
+}
+.traductor {
+	width:15% !important;
+	height:50% !important;
+	/*border:1px white solid;*/
+	margin-top:1%;
+	float:left;
+}
+a:link {text-decoration:none;}
+.inputText {
+	/*margin-top:1%;*/
+	height:80%;
+	color: #181C83;
+	font-weight:bold;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-style:italic;
+	border:1px #8989FE double;
+}
+.menuIzq {
+	width:15% !important;
+	height:82% !important;
+	background-color: #fff;
+	float:left;
+	/*border:1px black solid;*/
+}
+.contenido {
+	width:84% !important;
+	height:82% !important;
+	background-color: #fff;
+	float:left;
+	/*border:1px black solid;*/
+}
+.alerta2{
+	background:#F00;
+	color:#FFF;
+	font-size:80%;
+	border-radius:15px;
+}
+.alerta{
+	padding-left:4px;
+	padding-right:4px;
+	background:#F00;
+	color:#FFF;
+	font-size:80%;
+	border-radius:15px;
+}
+.alerta2_verde{
+	background: #0C6;
+	color: #FFF;
+	font-size:80%;
+	border-radius:15px;
+}
+.alerta_verde{
+	padding-left:4px;
+	padding-right:4px;
+	background: #0C6;
+	color: #FFF;
+	font-size:80%;
+	border-radius:15px;
+}
+/*----------BARRA DE PROGRESO------------*/
+.pace {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+
+  z-index: 2000;
+  position: fixed;
+  margin-top: 5%;
+  margin-left:17%;
+  top: 12px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  height: 25px;
+  border: 2px solid #34495e;
+  background-color: #fff;
+}
+
+.pace .pace-progress {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+
+  -webkit-transition: width 1s ease-in-out 1s linear;
+  -moz-transition: width 1s ease-in-out 1s linear;
+  -ms-transition: width 1s ease-in-out 1s linear;
+  -o-transition: width 1s ease-in-out 1s linear;
+  transition: width 1s ease-in-out 1s linear;
+
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+
+  max-width: 190px;
+  position: fixed;
+  z-index: 2000;
+  display: block;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  height: 15px;
+  font-size: 12px;
+  background: #34495e;
+  color: #34495e;
+  line-height: 60px;
+  font-weight: bold;
+  font-family:  Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.pace .pace-progress:after {
+  content: attr(data-progress-text);
+  display: inline-block;
+}
+
+.pace.pace-inactive {
+  display: none;
+}

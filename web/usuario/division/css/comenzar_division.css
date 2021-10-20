@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+.horizontal {
+	width:99% !important;
+	/*border:1px #000 solid;*/
+	float:left;
+}
+.horizontal div {
+	width:80% !important;
+	margin: 0 auto;
+	font-size:80%;
+	color: #006;
+}
+.columna1{
+	width:20% !important;
+	height:55% !important;
+	/*margin-left: 5%;*/
+	margin-top:1%;
+	float:left;
+	/*border:1px black solid;*/
+	display:none;
+}
+.columna2{
+	width:14% !important;
+	height:55% !important;
+	margin-top:0.5%;
+	float:left;
+	/*border:1px black solid;*/
+	display:none;
+}
+.columna3{
+	width:8.5% !important;
+	height:40% !important;
+	margin-top:8%;
+	float:left;
+	/*border:1px black solid;*/
+	display:none;
+}
+.columna4{
+	width:9.5% !important;
+	height:40% !important;
+	margin-top:8%;
+	float:left;
+	/*border:1px black solid;*/
+	display:none;
+}
+.columna5{
+	width:8.5% !important;
+	height:40% !important;
+	margin-top:8%;
+	float:left;
+	/*border:1px black solid;*/
+	display:none;
+}
+.columna6{
+	width:8.5% !important;
+	height:40% !important;
+	margin-top:8%;
+	float:left;
+	/*border:1px black solid;*/
+	display:none;
+}
+.columna7{
+	width:13.5% !important;
+	height:55% !important;
+	float:right;
+	/*border:1px black solid;*/
+	display:none;
+}
+.columna8{
+	width:13.5% !important;
+	height:55% !important;
+	float:right;
+	/*border:1px black solid;*/
+	display:none;
+}
+.cont_arbitros{
+	width:99% !important;
+	height:87% !important;
+	float:right;
+	overflow-x:hidden;
+	overflow-y:auto;
+	border:1px #d1d1d1 solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	border-radius:5px;
+	display:none;
+}
+.cont_arbitros:hover{
+	width:99% !important;
+	height:87% !important;
+	float:right;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	border:1px #181C83 solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	border-radius:5px;
+}
+.cont_pistas{
+	width:99% !important;
+	height:87% !important;
+	float:right;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	border:1px #d1d1d1 solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	border-radius:5px;
+	display:none;
+}
+.cont_pistas:hover{
+	width:99% !important;
+	height:87% !important;
+	float:right;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	border:1px #181C83 solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	border-radius:5px;
+}
+.cuadroTexto{
+	width:99%;
+	height:30px !important;
+	font-size:80%;
+	text-align:right;
+	color:#003;
+	/*border:1px black solid;*/
+	float:right;
+}
+.cuadroInputs{
+	width:99%;
+	height:30px !important;
+	font-size:80%;
+	text-align:left;
+	/*border:1px black solid;*/
+	float:right;
+}
+
+.input_text_liga {
+	width:65%;
+	height:80% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+}
+.input_select_liga {
+	height:90% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-style:italic;
+	font-weight:bold;
+	border:1px #8989FE solid;
+}
+.boton {
+	background-color: #34495e;
+	border-radius:7px;
+	border:3px #34495e solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	color:#FFF;
+	font-weight:bold;
+	margin-left:20%;
+	float:left;
+}
+.mensaje {
+	margin: 5%;
+	width:80% !important;
+	height:15% !important;
+	/*border: 1px black solid;*/
+	float:left;
+}
+.caja_pago {
+	width:99% !important;
+	height:99% !important;
+	background-color:#c5fbc6;
+	border-radius: 7px;
+	margin-top:0.5%;
+	border:1px #C1C1C1 solid;
+	float:left;
+}
+.caja_pago img {
+	margin-top:1%;
+	margin-left:1%;
+	height:70%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.caja_pago label {
+	width:80%;
+	text-align:center;
+	font-size:90%;
+	margin-top:0.5%;
+	margin-left:2%;
+	color:#006;
+	/*border:1px black solid;*/
+	float:left;
+}
+#respuesta {
+	color: #181C83;
+}
+#desdelunes1,#desdelunes2,#desdemartes1,#desdemartes2,#desdemiercoles1,#desdemiercoles2,#desdejueves1,#desdejueves2,#desdeviernes1,#desdeviernes2,#desdesabado1,#desdesabado2,#desdedomingo1,#desdedomingo2 {
+	display:none;
+}
+#hastalunes1,#hastalunes2,#hastamartes1,#hastamartes2,#hastamiercoles1,#hastamiercoles2,#hastajueves1,#hastajueves2,#hastaviernes1,#hastaviernes2,#hastasabado1,#hastasabado2,#hastadomingo1,#hastadomingo2 {
+	display:none;
+}
+
+

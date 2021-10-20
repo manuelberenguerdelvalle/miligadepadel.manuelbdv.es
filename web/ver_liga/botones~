@@ -1,0 +1,37 @@
+//AÑADIR BOTONES COMPARTIR
+		//WHATSAPP
+			<a href="whatsapp://send" data-text="Cómo crear el botón de Compartir en WhatsApp en tu sitio:" data-href="" class="wa_btn wa_btn_s" style="display:none">Compartir</a>
+		//FACEBOOK
+
+				//con contador de compartir
+				1. Include the SDK para JavaScript on your page once, ideally right after the opening <body> tag.
+				<div id="fb-root"></div>
+				<script>(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.5";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+				
+				2. Sitúa el código para el plugin allí donde quieras que aparezca en la página.
+				<div class="fb-share-button" data-href="http://www.miligadepadel.es/web/ver_liga/g/calendario.php" data-layout="button_count"></div>
+				
+				//sin contador de commpartir
+				1. Include the SDK para JavaScript on your page once, ideally right after the opening <body> tag.
+				<div id="fb-root"></div>
+				<script>(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.5";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+				2. Sitúa el código para el plugin allí donde quieras que aparezca en la página.
+				<div class="fb-share-button" data-href="http://www.miligadepadel.es/web/ver_liga/g/calendario.php" data-layout="button"></div>
+				
+
+               //TWITER
+
+			<a href="https://twitter.com/share" class="twitter-share-button" data-text="Ligas de Padel">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>

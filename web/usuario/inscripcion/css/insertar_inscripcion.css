@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+.caja_jugador{
+	width:49% !important;
+	height:87% !important;
+	float:left;
+	/*border:1px red solid;*/
+}
+.columna1{
+	width:30% !important;
+	height:83% !important;
+	margin-left: 1%;
+	margin-top:1%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.columna2{
+	width:40% !important;
+	height:83% !important;
+	margin-top:0.5%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.columna3{
+	width:25% !important;
+	height:83% !important;
+	margin-top:1%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.cuadroTexto{
+	width:99%;
+	height:30px !important;
+	font-size:80%;
+	text-align:right;
+	color:#003;
+	/*border:1px black solid;*/
+	float:right;
+}
+.cuadroInputs{
+	width:99%;
+	height:30px !important;
+	font-size:80%;
+	text-align:left;
+	/*border:1px black solid;*/
+	float:right;
+}
+.cuadroComentario{
+	width:99%;
+	height:30px !important;
+	font-size:80%;
+	color:#F00;
+	text-align:left;
+	/*border:1px black solid;*/
+	float:left;
+}
+.input_text_liga {
+	width:95%;
+	height:80% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+}
+.input_select_liga {
+	height:90% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-style:italic;
+	font-weight:bold;
+	border:1px #8989FE solid;
+}
+.horizontal {
+	width:99% !important;
+	color: #181C83;
+	font-weight:bold;
+	font-style:italic;
+	font-size:80%;
+	/*padding-left:20%;*/
+	text-align:center;
+	/*border:1px #000 solid;*/
+	float:left;
+}
+.inputText {
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+}
+.inputText_ciudad {
+	max-width:95% !important;
+	height:90% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+}
+.cuadroBusqueda {
+	width:99% !important;
+	height:7% !important;
+	text-align:center;
+	/*border:1px #000 solid;*/
+	float:left;
+}
+.cuadroResultado {
+	margin-left:24.5%;
+	width:70% !important;
+	height:50% !important;
+	max-height:50% !important;
+	/*border:1px #8989FE solid;*/
+	/*overflow-x:hidden;*/
+	overflow-y: auto;
+	float:left;
+}
+.resultado {
+	width:99% !important;
+	height:10% !important;
+	color: #181C83;
+	/*background-color: #EDEDFC;*/
+	background-color: #f1f1fb;
+	text-align:left;
+	font-size:80%;
+	font-style:italic;
+}
+.inputBusqueda{
+	width:50% !important;
+	height:90% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+}
+.opcion {
+	float:left;
+	margin-left:25%;
+	/*border: 1px black solid;*/
+}
+.boton {
+	background-color: #34495e;
+	border-radius:7px;
+	border:3px #34495e solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	color:#FFF;
+	font-weight:bold;
+	margin-left:45%;
+	float:left;
+}
+#nombre1_rapidoCom,#apellidos1_rapidoCom,#nombre1Com,#apellidos1Com,#direccion1Com,#paisCom,#provinciaCom,#ciudadCom,#telefono1Com,#email1Com,#password1Com,#dni1Com,#genero1Com
+,#nombre2_rapidoCom,#apellidos2_rapidoCom,#nombre2Com,#apellidos2Com,#direccion2Com,#pais2Com,#provincia2Com,#ciudad2Com,#telefono2Com,#email2Com,#password2Com,#dni2Com,#genero2Com{
+	display:none;
+}
+#jug1_col1,#jug1_col2,#jug1_col3,#jug2_col1,#jug2_col2,#jug2_col3{
+	display:none;
+}

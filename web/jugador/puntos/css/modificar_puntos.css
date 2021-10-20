@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+.caja1{
+	width:40% !important;
+	height:95% !important;
+	float:left;
+	overflow-x:hidden;
+	overflow-y: auto;
+	/*border:1px blue solid;*/
+}
+.caja2{
+	width:55% !important;
+	height:95% !important;
+	float:left;
+	overflow-x:hidden;
+	overflow-y: auto;
+	/*border:1px red solid;*/
+}
+.lineaM{
+	width:99% !important;
+	float:left;
+	/*border:1px  #EDEDFC solid;*/
+}
+.lineaM:hover{
+	font-weight:bolder;
+	background-color:#EDEDFC;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+}
+.lineaF{
+	width:99% !important;
+	float:left;
+	/*border:1px  #EDEDFC solid;*/
+}
+.lineaF:hover{
+	font-weight:bolder;
+	background-color:#fcedf2;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+}
+.linea2{
+	width:99% !important;
+	float:left;
+	/*border:1px  #EDEDFC solid;*/
+}
+.columna1{
+	width:97% !important;
+	/*height:70% !important;*/
+	margin-left: 2%;
+	margin-top:2%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.columna2{
+	width:48% !important;
+	/*height:70% !important;*/
+	margin-top:2%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.columna3{
+	width:10% !important;
+	/*height:70% !important;*/
+	margin-top:1%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.cuadro_jugador{
+	width:90% !important;
+	margin-left:9%;
+	display:none;
+	float:left;
+}
+.nombre_jugadorM{
+	width:100% !important;
+	height:30px;
+	background-color:#EDEDFC;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	/*background-color:#d9faea;*/
+	font-weight:bolder;
+	font-size:80%;
+	color:#003;
+	text-align: center;
+	float:left;
+}
+.nombre_jugadorF{
+	width:100% !important;
+	height:30px;
+	background-color:#fcedf2;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	/*background-color:#d9faea;*/
+	font-weight:bolder;
+	font-size:80%;
+	color:#003;
+	text-align: center;
+	float:left;
+}
+.nombre_jugadorM div{
+	margin-top:1%;
+}
+.nombre_jugadorF div{
+	margin-top:1%;
+}
+.columna4{
+	width:23% !important;
+	text-align:left;
+	float:left;
+}
+.columna5{
+	width:38% !important;
+	text-align:left;
+	float:left;
+}
+.columna6{
+	width:37% !important;
+	text-align:left;
+	float:left;
+}
+.cuadroTexto{
+	width:99%;
+	height:30px !important;
+	font-size:80%;
+	text-align:right;
+	color:#003;
+	float:right;
+}
+.cuadroTexto2{
+	width:99%;
+	height:30px !important;
+	font-size:80%;
+	color:#003;
+	float:left;
+}
+.boton {
+	background-color: #34495e;
+	border-radius:7px;
+	border:3px #34495e solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	color:#FFF;
+	font-weight:bold;
+	margin-left:5%;
+	float:left;
+}
+.horizontal {
+	width:99% !important;
+	color: #181C83;
+	float:left;
+}
+.horizontal div {
+	width:80% !important;
+	margin: 0 auto;
+	font-size:80%;
+	color: #006;
+}
+.titulo {
+	font-size:90%;
+	color: #006;
+	margin-left:50%;
+}
+#inscripcionCom,#victoria_amistosoCom,#victoriaCom,#dieciseisavosCom,#octavosCom,#cuartosCom,#semifynalCom,#fynalCom,#primeroCom,#segundoCom {
+	display:none;
+}

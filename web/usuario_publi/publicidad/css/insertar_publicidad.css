@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+.columna1{
+	width:8% !important;
+	height:40% !important;
+	margin-left: 5%;
+	margin-top:5%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.columna2{
+	width:20% !important;
+	height:40% !important;
+	margin-top:4.5%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.columna3{
+	width:17% !important;
+	height:40% !important;
+	margin-top:5%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.columna4{
+	width:45% !important;
+	height:65% !important;
+	margin-top:1%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.cuadroTexto{
+	width:99%;
+	height:30px !important;
+	font-size:80%;
+	text-align:right;
+	color:#003;
+	/*border:1px black solid;*/
+	float:right;
+}
+.cuadroInputs{
+	width:99%;
+	height:30px !important;
+	font-size:80%;
+	text-align:left;
+	/*border:1px black solid;*/
+	float:right;
+}
+.cuadroComentario{
+	width:99%;
+	height:30px !important;
+	font-size:80%;
+	color:#F00;
+	text-align:left;
+	/*border:1px black solid;*/
+	float:left;
+}
+.input_select_liga {
+	max-width:99%;
+	height:80% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+}
+.input_url {
+	max-width:99%;
+	width:99%;
+	height:80% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+}
+.fondo_vista_previa {
+	width: 230px !important;
+	height:230px !important;
+	margin: 0 auto;
+	background-image:url(../../../../images/pelota.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: contain;
+	/*border:1px #000 solid;*/
+}
+.imagen_redondeada {
+	width: 80% !important;
+	height:80% !important;
+	margin-top: 10.5%;
+	margin-left: 10%;
+    border-radius: 50%;
+}
+.titulo {
+	font-size:90%;
+	color: #006;
+	margin-left:5%;
+}
+.boton {
+	background-color: #34495e;
+	border-radius:7px;
+	border:3px #34495e solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	color:#FFF;
+	font-weight:bold;
+	margin-left:45%;
+	float:left;
+}
+.input_text_liga_disabled {
+	width:65%;
+	height:80% !important;
+	color: #555;
+	background-color: #e6e6e6;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+}
+.horizontal {
+	width:99% !important;
+	/*border:1px #000 solid;*/
+	float:left;
+}
+.titulo {
+	font-size:80%;
+	color: #006;
+}
+.nueva_publi {
+	margin-left:20%;
+}
+#provinciaCom,#ciudadCom,#suscripcionCom,#urlCom,#nueva_publiCom {
+	display:none;
+}
+

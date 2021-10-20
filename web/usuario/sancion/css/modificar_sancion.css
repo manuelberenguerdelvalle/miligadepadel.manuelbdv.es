@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+.cont_principal {
+	width:99% !important;
+	height:99% !important;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	float:left;
+	/*border:1px black solid;*/
+}
+.titulo {
+	font-size:90%;
+	color: #006;
+	margin-left:15%;
+}
+
+.caja {
+	width:90% !important;
+	height:19% !important;
+	background-color:#f3fcf5;
+	border-radius: 7px;
+	border:1px #C1C1C1 solid;
+	margin-top:3%;
+	margin-left:5%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.caja:hover {
+	width:90% !important;
+	height:19% !important;
+	background-color:#dbe4dd;
+	border-radius: 7px;
+	border:1px #C1C1C1 solid;
+	margin-top:3%;
+	margin-left:5%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.letra {
+	color:#34495e;
+	font-size:45%;
+	text-align: center;
+	width:99% !important;
+	float:left;
+	font-weight: bolder;
+}
+.equipo {
+	width:30% !important;
+	height:99.9% !important;
+	float:left;
+}
+.jugador1 {
+	width:99.9% !important;
+	height:49% !important;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	border-right:1px #C1C1C1 solid;
+	border-bottom:1px #C1C1C1 solid;
+	border-left:1px #C1C1C1 solid;
+	float:left;
+}
+.jugador2 {
+	width:99.9% !important;
+	height:50% !important;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	border-right:1px #C1C1C1 solid;
+	border-left:1px #C1C1C1 solid;
+	float:left;
+}
+.alinear_texto{
+	margin-top:5%;
+}
+
+.texto_faltas {
+	width:7% !important;
+	height:99.9% !important;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	float:left;
+	border-right:1px #C1C1C1 solid;
+	/*border:1px black solid;*/
+}
+.texto_faltas div{
+	margin-top:50%;
+}
+.texto_suspensiones {
+	width:11% !important;
+	height:99.9% !important;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	float:left;
+	border-left:1px #C1C1C1 solid;
+	border-right:1px #C1C1C1 solid;
+	/*border:1px black solid;*/
+}
+.texto_suspensiones div{
+	margin-top:33%;
+}
+.faltas {
+	width:21% !important;
+	height:99% !important;
+	/*border:1px black solid;*/
+	float:left;
+}
+.suspensiones {
+	width:30% !important;
+	height:99% !important;
+	/*border:1px black solid;*/
+	float:left;
+}
+
+.sub_faltas {
+	width:99.9% !important;
+	height:24.5% !important;
+	/*border:1px black solid;*/
+	float:left;
+}
+.sub2_faltas {
+	width:99.9% !important;
+	height:24.5% !important;
+	border-bottom:1px #C1C1C1 solid;
+	/*border:1px black solid;*/
+	float:left;
+}
+
+.sub_suspensiones {
+	width:99% !important;
+	height:25% !important;
+	margin-top:7%;
+	/*border:1px black solid;*/
+	float:left;
+}
+
+.texto1 {
+	width:35% !important;
+	height:99% !important;
+	padding-right:3%;
+	font-size:80%;
+	text-align: right;
+	color:#003;
+	/*border:1px #34495e solid;*/
+	float:left;
+}
+.texto2 {
+	width:35% !important;
+	height:99% !important;
+	padding-right:3%;
+	font-size:80%;
+	text-align: right;
+	color:#003;
+	/*border:1px #34495e solid;*/
+	float:left;
+}
+.color_link {
+	color:#003;	
+}
+.menos {
+	width:14% !important;
+	height:95% !important;
+	font-size:100%;
+	font-weight:bold;
+	text-align:center;
+	background-color: #AABBCC;
+	border-radius:5px;
+	border:1px #34495e solid;
+	float:left;
+}
+.mas {
+	width:14% !important;
+	height:95% !important;
+	padding-left:0.5%;
+	font-size:100%;
+	text-align:center;
+	background-color: #AABBCC;
+	border-radius:5px;
+	border:1px #34495e solid;
+	float:left;
+}
+.menos2 {
+	width:10% !important;
+	height:95% !important;
+	font-size:100%;
+	font-weight:bold;
+	text-align:center;
+	background-color: #AABBCC;
+	border-radius:5px;
+	border:1px #34495e solid;
+	float:left;
+}
+.mas2 {
+	width:10% !important;
+	height:95% !important;
+	padding-left:0.5%;
+	font-size:100%;
+	text-align:center;
+	background-color: #AABBCC;
+	border-radius:5px;
+	border:1px #34495e solid;
+	float:left;
+}
+.resultado {
+	width:27% !important;
+	height:99% !important;
+	/*border:1px #34495e solid;*/
+	float:left;
+}
+.resultado2 {
+	width:20% !important;
+	height:99% !important;
+	/*border:1px #34495e solid;*/
+	float:left;
+}
+.partidos {
+	height:99% !important;
+	/*border:1px #34495e solid;*/
+	float:left;
+}
+
+
+.input_text_liga {
+	width:90%;
+	height:80% !important;
+	text-align:center;
+	margin-left:4%;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+	float:left;
+}
+.input_select_liga {
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-style:italic;
+	font-weight:bold;
+	border:2px #8989FE solid;
+	float:left;
+}
+.horizontal {
+	width:99% !important;
+	/*border:1px #000 solid;*/
+	float:left;
+}
+.input_act {
+	margin-left:35%;
+	border-radius:5px;
+}
+.input_eli {
+	margin-left:20%;
+	border-radius:5px;
+}
+.error{
+	margin-left:10%;
+	font-size:80%;
+	color:#F00;
+}
+#nombreCom,#apellidosCom,#dniCom,#telefonoCom,#direccionCom,#cpCom,#tipoCom {
+	display:none;
+}
+
+

@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+.caja1{
+	width:49% !important;
+	height:85% !important;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	float:left;
+	/*border-radius:7px;*/
+	border:4px #8989FE double;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+}
+.linea {
+	width:99% !important;
+	height:12% !important;
+	background-color:#f3fcf5;
+	border-radius: 7px;
+	border:1px #C1C1C1 solid;
+	margin-top:3%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.linea:hover {
+	width:99% !important;
+	height:12% !important;
+	background-color:#dbe4dd;
+	border-radius: 7px;
+	border:1px #C1C1C1 solid;
+	margin-top:3%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.radio {
+	width:3% !important;
+	height:80% !important;
+	padding-top:2%;
+	text-align:left;
+	/*border:1px black solid;*/
+	float:left;
+}
+.datos {
+	width:37% !important;
+	height:99% !important;
+	padding-left:0.5%;
+	padding-top:0.5%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.datos2 {
+	width:25% !important;
+	height:99% !important;
+	padding-left:0.5%;
+	padding-top:0.5%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.datos3 {
+	width:32% !important;
+	height:99% !important;
+	padding-left:0.5%;
+	padding-top:0.5%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.datos_linea {
+	width:99% !important;
+	height:45% !important;
+	/*margin-top:2%;*/
+	font-size:80%;
+	color:#003;
+	float:left;
+	/*border:1px black solid;*/
+}
+.caja2{
+	width:49% !important;
+	height:85% !important;
+	float:left;
+	/*border:1px black solid;*/
+}
+.columna1{
+	width:20% !important;
+	height:25% !important;
+	float:left;
+	/*border:1px black solid;*/
+}
+.columna2{
+	width:42% !important;
+	height:25% !important;
+	/*margin-top:0.5%;*/
+	float:left;
+	/*border:1px black solid;*/
+}
+.columna3{
+	width:33% !important;
+	height:25% !important;
+	float:left;
+	/*border:1px black solid;*/
+}
+.columna4{
+	width:99% !important;
+	height:55% !important;
+	margin-top:1%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.cuadroTexto{
+	width:99%;
+	height:30px !important;
+	font-size:80%;
+	text-align:right;
+	color:#003;
+	/*border:1px black solid;*/
+	float:right;
+}
+.cuadroInputs{
+	width:99%;
+	height:30px !important;
+	font-size:80%;
+	text-align:left;
+	/*border:1px black solid;*/
+	float:right;
+}
+.cuadroComentario{
+	width:99%;
+	height:30px !important;
+	font-size:80%;
+	color:#F00;
+	text-align:left;
+	/*border:1px black solid;*/
+	float:left;
+}
+.input_select_liga {
+	max-width:99%;
+	height:80% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+}
+.input_url {
+	max-width:99%;
+	width:99%;
+	height:80% !important;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+}
+.fondo_vista_previa {
+	width: 150px !important;
+	height:150px !important;
+	margin: 0 auto;
+	background-image:url(../../../../images/pelota.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: contain;
+	/*border:1px #000 solid;*/
+}
+.imagen_redondeada {
+	width: 80% !important;
+	height:80% !important;
+	margin-top: 10.5%;
+	margin-left: 10%;
+    border-radius: 50%;
+}
+.titulo {
+	font-size:70%;
+	color: #006;
+	margin-left:5%;
+}
+.boton {
+	background-color: #34495e;
+	border-radius:7px;
+	border:3px #34495e solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	color:#FFF;
+	font-weight:bold;
+	margin-left:65%;
+	float:left;
+}
+.input_text_liga_disabled {
+	width:65%;
+	height:80% !important;
+	color: #555;
+	background-color: #e6e6e6;
+	border-radius:5px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px #8989FE solid;
+}
+.horizontal {
+	width:99% !important;
+	/*border:1px #000 solid;*/
+	float:left;
+}
+.nueva_publi {
+	margin-left:20%;
+}
+#provinciaCom,#ciudadCom,#suscripcionCom,#urlCom,#nueva_publiCom {
+	display:none;
+}
+

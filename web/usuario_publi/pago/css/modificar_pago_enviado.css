@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+.cont_principal {
+	width:99% !important;
+	height:99% !important;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	float:left;
+	/*border:1px black solid;*/
+}
+/*.titulo {
+	font-size:90%;
+	color: #006;
+	margin-left:15%;
+}*/
+
+.caja {
+	width:99% !important;
+	height:12% !important;
+	background-color:#f3fcf5;
+	border-radius: 7px;
+	border:1px #C1C1C1 solid;
+	margin-top:3%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.caja:hover {
+	width:99% !important;
+	height:12% !important;
+	background-color:#dbe4dd;
+	border-radius: 7px;
+	border:1px #C1C1C1 solid;
+	margin-top:3%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.caja_pago {
+	width:99% !important;
+	height:12% !important;
+	background-color:#c5fbc6;
+	border-radius: 7px;
+	margin-top:0.5%;
+	border:1px #C1C1C1 solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.caja_pago img {
+	margin-top:0.5%;
+	margin-left:1%;
+	height:70%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.caja_pago label {
+	width:90%;
+	text-align:center;
+	font-size:95%;
+	margin-top:0.5%;
+	margin-left:2%;
+	color:#006;
+	/*border:1px black solid;*/
+	float:left;
+}
+.alinear_texto{
+	margin-top:6%;
+}
+.alinear_titulo{
+	margin-top:1%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.datos {
+	width:28% !important;
+	height:99% !important;
+	padding-left:0.5%;
+	padding-top:0.5%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.datos2 {
+	width:20% !important;
+	height:99% !important;
+	padding-left:0.5%;
+	padding-top:0.5%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.datos3 {
+	width:15% !important;
+	height:99% !important;
+	padding-left:0.5%;
+	padding-top:0.5%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.datos4 {
+	width:10% !important;
+	height:99% !important;
+	padding-left:0.5%;
+	padding-top:0.5%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.datos_linea {
+	width:99% !important;
+	height:45% !important;
+	/*margin-top:2%;*/
+	font-size:80%;
+	color:#003;
+	float:left;
+	/*border:1px black solid;*/
+}
+.datos_linea_boton {
+	width:99% !important;
+	margin-top:6%;
+	font-size:80%;
+	color:#003;
+	float:left;
+	/*border:1px black solid;*/
+}
+.imagen {
+	height:100% !important;
+	/*border-radius: 5px;
+	border:1px #003 solid;
+	 #00447e */
+	float:left;
+}
+.boton {
+	background-color:  #AABBCC;
+	border-radius:7px;
+	border:3px #AABBCC solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	color:#34495e;
+	font-weight:bold;
+	float:left;
+}

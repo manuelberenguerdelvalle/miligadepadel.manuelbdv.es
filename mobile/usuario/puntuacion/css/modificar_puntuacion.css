@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+.cont_principal {
+	width:99% !important;
+	float:left;
+	/*border:1px black solid;*/
+}
+.titulo {
+	font-size:90%;
+	color: #006;
+	margin-left:30%;
+}
+.caja {
+	width:90% !important;
+	background-color:#f3fcf5;
+	border-radius: 10px;
+	border:5px #C1C1C1 solid;
+	margin-left:4%;
+	margin-top:3%;
+	box-shadow:5px 5px 7px rgba(0,0,0,0.3);
+	float:left;
+}
+.columna1{
+	width:75% !important;
+	margin-top:1%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.columna2{
+	width:15% !important;
+	margin-top:0.5%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.cuadroTexto{
+	width:99%;
+	height:70px !important;
+	font-size:80%;
+	text-align:right;
+	color:#003;
+	/*border:1px black solid;*/
+	float:right;
+}
+.cuadroInputs{
+	width:99%;
+	height:70px !important;
+	font-size:80%;
+	text-align:left;
+	/*border:1px black solid;*/
+	float:right;
+}
+.cuadroComentario{
+	width:99%;
+	height:70px !important;
+	font-size:80%;
+	color:#F00;
+	text-align:left;
+	/*border:1px black solid;*/
+	float:left;
+}
+.input_text_liga {
+	width:95%;
+	max-width:95%;
+	font-size:90%;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:10px;
+	font-weight:bold;
+	font-style:italic;
+	border:2px #8989FE solid;
+	text-align:center;
+}
+.input_select_liga {
+	width:95%;
+	max-width:95%;
+	font-size:90%;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:10px;
+	font-weight:bold;
+	font-style:italic;
+	border:2px #8989FE solid;
+}
+.horizontal {
+	width:99% !important;
+	/*border:1px #000 solid;*/
+	float:left;
+}
+.boton {
+	margin-left:25%;
+	background-color: #34495e;
+	border-radius:10px;
+	font-size:80%;
+	border:2px #34495e solid;
+	box-shadow:5px 5px 7px rgba(0,0,0,0.3);
+	color:#FFF;
+	font-weight:bold;
+	float:left;
+}

@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+.cont_principal {
+	width:99% !important;
+	height:99% !important;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	float:left;
+	/*border:1px black solid;*/
+}
+.titulo {
+	font-size:90%;
+	color: #006;
+	margin-left:15%;
+}
+.caja_pago {
+	width:99% !important;
+	height:12% !important;
+	background-color:#c5fbc6;
+	border-radius: 7px;
+	margin-top:0.5%;
+	border:1px #C1C1C1 solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.caja_pago img {
+	margin-top:0.5%;
+	margin-left:1%;
+	height:70%;
+	/*border:1px black solid;*/
+	float:left;
+}
+.caja_pago label {
+	width:90%;
+	text-align:center;
+	font-size:95%;
+	margin-top:0.5%;
+	margin-left:2%;
+	color:#006;
+	/*border:1px black solid;*/
+	float:left;
+}
+.caja {
+	width:99% !important;
+	height:19% !important;
+	background-color:#f3fcf5;
+	border-radius: 7px;
+	border:1px #C1C1C1 solid;
+	margin-top:3%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.caja:hover{
+	width:99% !important;
+	height:19% !important;
+	background-color:#dbe4dd;
+	border-radius: 7px;
+	border:1px #C1C1C1 solid;
+	margin-top:3%;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	float:left;
+}
+.subcaja1{
+	width:90% !important;
+	height:99% !important;
+	float:left;
+}
+.subcaja2{
+	width:9.9% !important;
+	height:99% !important;
+	float:left;
+}
+.jugador1 {
+	width:99.9% !important;
+	height:49% !important;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	/*border-right:1px #C1C1C1 solid;*/
+	border-bottom:1px #C1C1C1 solid;
+	/*border-left:1px #C1C1C1 solid;*/
+	float:left;
+}
+.jugador2 {
+	width:99.9% !important;
+	height:50% !important;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	/*border-right:1px #C1C1C1 solid;*/
+	/*border-left:1px #C1C1C1 solid;*/
+	float:left;
+}
+.nombre{
+	width:25% !important;
+	height:50% !important;
+	margin-top:1.2%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.seguro{
+	width:2% !important;
+	height:20% !important;
+	margin-top:1.2%;
+	background-color:#2b91af;
+	border-radius:5px;
+	box-shadow:0 2px 3px rgba(0,0,0,0.3);
+	color: #FFF;
+	font-weight:bold;
+	text-align:center;
+	float:left;
+	/*border:1px black solid;*/
+}
+.noseguro{
+	width:2% !important;
+	height:20% !important;
+	margin-top:1.2%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.edad{
+	width:7% !important;
+	height:50% !important;
+	margin-top:1.2%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.inscripcion{
+	width:18% !important;
+	height:50% !important;
+	margin-top:1.2%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.email{
+	width:26% !important;
+	height:50% !important;
+	margin-top:1.2%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.password{
+	width:10% !important;
+	height:75% !important;
+	margin-top:1.2%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.telefono{
+	width:10% !important;
+	height:50% !important;
+	margin-top:1.2%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.opciones {
+	width:99.9% !important;
+	height:99.9% !important;
+	border-left:1px #C1C1C1 solid;
+	/*border:1px #000 solid;*/
+	float:left;
+}
+.horizontal {
+	width:99% !important;
+	/*border:1px #000 solid;*/
+	float:left;
+}
+.imagen {
+	height:30% !important;
+	margin-top:5%;
+	margin-left:30%;
+	float:left;
+}
+.boton {
+	background-color: #34495e;
+	border-radius:7px;
+	border:3px #34495e solid;
+	box-shadow:0 2px 3px rgba(0,0,0,0.3);
+	color:#FFF;
+	font-weight:bold;
+	margin-top:5%;
+	margin-left:10%;
+	float:left;
+}

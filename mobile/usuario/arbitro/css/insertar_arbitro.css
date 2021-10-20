@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+.titulo {
+	font-size:90%;
+	color: #006;
+	margin-left:30%;
+}
+.columna1{
+	width:40% !important;
+	height:50% !important;
+	margin-left: 5%;
+	margin-top:1%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.columna2{
+	width:45% !important;
+	height:50% !important;
+	margin-top:0.5%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.columna3{
+	width:5% !important;
+	height:50% !important;
+	margin-top:1%;
+	float:left;
+	/*border:1px black solid;*/
+}
+.cuadroTexto{
+	width:99%;
+	height:70px !important;
+	font-size:80%;
+	text-align:right;
+	color:#003;
+	/*border:1px black solid;*/
+	float:right;
+}
+.cuadroInputs{
+	width:99%;
+	height:70px !important;
+	font-size:80%;
+	text-align:left;
+	/*border:1px black solid;*/
+	float:right;
+}
+.cuadroComentario{
+	width:99%;
+	height:70px !important;
+	font-size:80%;
+	color:#F00;
+	text-align:left;
+	/*border:1px black solid;*/
+	float:left;
+}
+.input_text_liga {
+	width:95%;
+	max-width:95%;
+	font-size:90%;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:10px;
+	font-weight:bold;
+	font-style:italic;
+	border:2px #8989FE solid;
+}
+.input_select_liga {
+	width:95%;
+	max-width:95%;
+	font-size:90%;
+	color: #181C83;
+	background-color: #EDEDFC;
+	border-radius:10px;
+	font-weight:bold;
+	font-style:italic;
+	border:2px #8989FE solid;
+}
+.horizontal {
+	width:99% !important;
+	/*border:1px #000 solid;*/
+	float:left;
+}
+.input_ins {
+	margin-left:30%;
+	border-radius:10px;
+}
+.error {
+	margin-left:15%;
+	font-size:80%;
+	color:#F00;
+}
+.boton {
+	margin-left:35%;
+	background-color: #34495e;
+	border-radius:10px;
+	font-size:80%;
+	border:2px #34495e solid;
+	box-shadow:5px 5px 7px rgba(0,0,0,0.3);
+	color:#FFF;
+	font-weight:bold;
+	float:left;
+}
+#nombreCom,#apellidosCom,#dniCom,#telefonoCom,#direccionCom,#cpCom {
+	display:none;
+}
+
+
+

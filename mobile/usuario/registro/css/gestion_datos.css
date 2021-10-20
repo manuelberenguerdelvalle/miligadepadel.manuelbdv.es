@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+html,body {
+	margin: 0px;
+	padding: 0px;
+	font-size:50px;
+	background-color: #fff;
+}
+.principal {
+	margin-top: -0.6%;
+	width:99% !important;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	/*border:1px black solid;*/
+}
+.izquierdo {
+	width:10.5% !important;
+	height:90% !important;
+	background-color:#FFFFFF;
+	border-bottom:1px #b6b7b9 solid;
+	/*background-image: url(../../../../images/fondo_plan.jpg);
+	border:4px #8989FE double;
+	box-shadow:5px 5px 7px rgba(0,0,0,0.3);*/
+	float:left;
+}
+.derecho {
+	width:10.5% !important;
+	height:90% !important;
+	background-color:#FFFFFF;
+	border-bottom:1px #b6b7b9 solid;
+	/*background-image: url(../../../../images/fondo_plan.jpg);
+	border:4px #8989FE double;
+	box-shadow:5px 5px 7px rgba(0,0,0,0.3);*/
+	float:left;
+}
+.contenido {
+	width:99% !important;
+	padding-left:2%;
+	background-color:#FFFFFF;
+	border-bottom:1px #b6b7b9 solid;
+	/*background-image: url(../../../../images/fondo_plan.jpg);*/
+	/*background-color:#EEFFEE;*/
+	margin: 0 auto;
+	float:left;
+}
+.paso {
+	width:99% !important;
+	/*border:1px black solid;*/
+	float:left;
+}
+.num_pasos {
+	width:99% !important;
+	/*border:1px black solid;*/
+	float:left;
+}
+.pasoImg {
+	height:99% !important; 
+}
+.atras {
+	width:35% !important;
+	height:99% !important;
+	float:left;
+}
+.botonAtras{
+	background-color:#2b91af;
+	border-radius:10px;
+	box-shadow:5px 5px 7px rgba(0,0,0,0.3);
+	color:#fff;
+	cursor:pointer;
+	display:inline-block;
+	padding:5px 10px;
+	text-align:center;
+	text-decoration:none;
+}
+.botonAtras:hover{
+	background-color:#1e1e1e;
+}
+.traductor {
+	width:20% !important;
+	/*border:1px black solid;*/
+	float: right;
+}
+.cuadro {
+	margin-left: 12%;
+	width:75% !important;
+	height:1000px !important;
+	background-color: #8FB;
+	/*opacity:0.3;*/
+	/*float:left;*/
+	border-radius:10px;
+	box-shadow:7px 7px 7px #333;
+	border:3px black solid;
+	behavior: url(/PIE.htc);
+	float:left;
+}
+
+.okImg {
+	width:20% !important;
+	margin-top:1%;
+	margin-left:5%;
+	float:left;
+	text-align:right;
+	/*border:1px black solid;*/
+}
+.okImg img {
+	width:99% !important;
+}
+.okText {
+	width:70% !important;
+	margin-top:2%;
+	padding-top:1%;
+	padding-left:0.5%;
+	font-weight:bold;
+	font-size:110%;
+	color:#030;
+	float:left;
+	/*border:1px black solid;*/
+}
+.okText2 {
+	width:70% !important;
+	margin-top:2%;
+	margin-left:25%;
+	font-size:80%;
+	font-weight:bold;
+	color: #006;
+	float:left;
+	/*border:1px black solid;*/
+}
+.okText2 div {
+	text-align:center;
+}

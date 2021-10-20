@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+/*#CCC
+#999*/
+.cuadro_general{
+	width:90% !important;
+	height:80% !important;
+	margin-left: 5%;
+	margin-top:1%;
+	overflow-y: auto;
+	/*border:1px black solid;*/
+	float:left;
+}
+.posicion_cab{
+	width:9% !important;
+	height:5% !important;
+	padding-top:0.5%;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	background-color:#CCC;
+	border-top:1px #CCC solid;
+	border-bottom:1px #CCC solid;
+	border-left:1px #CCC solid;
+	float:left;
+}
+.movimiento_cab{
+	width:4% !important;
+	height:5% !important;
+	padding-top:0.5%;
+	background-color:#CCC;
+	border-top:1px #CCC solid;
+	border-bottom:1px #CCC solid;
+	float:left;
+}
+.jugador_cab{
+	width:33% !important;
+	height:5% !important;
+	padding-top:0.5%;
+	font-size:80%;
+	text-align:left;
+	color:#003;
+	background-color:#CCC;
+	border-top:1px #CCC solid;
+	border-bottom:1px #CCC solid;
+	float:left;
+}
+.respuesta_cab{
+	width:12% !important;
+	height:5% !important;
+	padding-top:0.5%;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	background-color:#CCC;
+	border-top:1px #CCC solid;
+	border-bottom:1px #CCC solid;
+	float:left;
+}
+.opcion_cab{
+	width:8% !important;
+	height:5% !important;
+	padding-top:0.5%;
+	font-size:80%;
+	text-align:left;
+	color:#003;
+	background-color:#CCC;
+	border-top:1px #CCC solid;
+	border-bottom:1px #CCC solid;
+	border-right:1px #CCC solid;
+	float:left;
+}
+.division_cab{
+	width:97.5% !important;
+	height:5% !important;
+	padding-top:0.5%;
+	font-size:80%;
+	text-align:left;
+	padding-left:1.5%;
+	color:#003;
+	background-color: #d2dbf9;
+	border-bottom:1px #CCC solid;
+	border-right:1px #CCC solid;
+	border-left:1px #CCC solid;
+	float:left;
+}
+.caja{
+	width:99% !important;
+	height:6% !important;
+	border-bottom:1px #CCC solid;
+	border-right:1px #CCC solid;
+	border-left:1px #CCC solid;
+	float:left;
+}
+.caja:hover{
+	background-color: #f5effb;
+	font-weight:bold;
+}
+.caja_asc{
+	width:99% !important;
+	height:6% !important;
+	background-color:#e0fcd2;
+	border-bottom:1px #CCC solid;
+	border-right:1px #CCC solid;
+	border-left:1px #CCC solid;
+	float:left;
+}
+.caja_asc:hover{
+	font-weight:bold;
+}
+.caja_desc{
+	width:99% !important;
+	height:6% !important;
+	background-color:#fcdbd2;
+	border-bottom:1px #CCC solid;
+	border-right:1px #CCC solid;
+	border-left:1px #CCC solid;
+	float:left;
+}
+.caja_desc:hover{
+	font-weight:bold;
+}
+.posicion{
+	width:9% !important;
+	height:99% !important;
+	max-width:9% !important;
+	max-height:5% !important;
+	padding-top:0.5%;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	float:left;
+}
+.movimiento{
+	width:4% !important;
+	height:99% !important;
+	max-width:9% !important;
+	max-height:5% !important;
+	padding-top:0.5%;
+	text-align:center;
+	float:left;
+}
+.foto_mov{
+	width:50%;
+}
+.jugador{
+	width:33% !important;
+	height:99% !important;
+	max-width:35% !important;
+	max-height:5% !important;
+	padding-top:0.5%;
+	font-size:80%;
+	text-align:left;
+	color:#003;
+	float:left;
+}
+.respuesta{
+	width:12% !important;
+	height:99% !important;
+	max-width:12% !important;
+	max-height:5% !important;
+	padding-top:0.5%;
+	font-size:80%;
+	text-align:center;
+	color:#003;
+	float:left;
+}
+.opcion{
+	width:8% !important;
+	height:99% !important;
+	max-width:9% !important;
+	max-height:5% !important;
+	padding-top:0.2%;
+	text-align:center;
+	float:left;
+}
+.foto_eli{
+	width:30%;
+}
+.horizontal {
+	width:99%;
+	font-size:80%;
+	color:#003;
+	float:left;
+}
+.boton {
+	background-color: #34495e;
+	border-radius:7px;
+	border:3px #34495e solid;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+	color:#FFF;
+	font-weight:bold;
+	margin-left:35%;
+	float:left;
+}
+.cargando {
+	width:4%;
+	margin-left:30%;
+	float:left;
+}
+.texto {
+	float:left;
+	margin-left:1%;
+	margin-top:1%;
+}
